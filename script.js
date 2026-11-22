@@ -1,6 +1,6 @@
 'use strict';
 // Demo-only interface. Production authentication and bookings require a secure backend.
-const WHATSAPP_NUMBER = '94700754715';
+const WHATSAPP_NUMBER = '94760754715';
 const DEMO_EMAIL = 'admin@weligama.lk';
 const DEMO_PASSWORD = '12345';
 let lastFocusedElement = null;
@@ -70,3 +70,4 @@ document.getElementById('priceForm').addEventListener('submit', event => {
   document.getElementById('roomPrice').textContent = Number.isInteger(price) ? String(price) : price.toFixed(2);
   message.textContent = 'Display price updated for this session.';
 });
+
