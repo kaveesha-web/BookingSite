@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Discover a relaxing beachfront stay in Weligama, Sri Lanka." />
+  <title>Weligama Stays | Your Coastal Escape</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home"><span class="brand-icon">✺</span><span>Weligama <strong>Stays</strong><small>SRI LANKA</small></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#home">Home</a><a href="#rooms">Our Room</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+      <div class="nav-actions"><button class="text-button" type="button" data-open="customerModal">Log in</button><a class="button button-primary nav-book" href="#rooms">Book your stay <span>↗</span></a><button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+    </div>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation"><a href="#home">Home</a><a href="#rooms">Our Room</a><a href="#about">About Us</a><a href="#contact">Contact</a></nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content"><div class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> WELCOME TO WELIGAMA, SRI LANKA</div><h1>Your little piece<br />of <em>paradise.</em></h1><p>Slow mornings, ocean breezes, and unforgettable sunsets. Your perfect coastal escape starts here.</p><div class="hero-actions"><a class="button button-primary" href="#rooms">Explore our room <span>↗</span></a><a class="hero-secondary" href="#about">Discover Weligama <span>→</span></a></div></div>
+      <div class="hero-bottom container"><span>✦ &nbsp; BEACHFRONT COMFORT</span><span>WELIGAMA · SOUTH COAST</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="intro-section" id="about"><div class="container intro-grid"><div><div class="eyebrow">THE COAST IS CALLING</div><h2>Stay close to the sea.<br /><em>Feel far from ordinary.</em></h2></div><div class="intro-copy"><p>Find your own rhythm in beautiful Weligama. From laid-back beach days to cozy nights, our welcoming beachfront room is made for the moments that matter.</p><div class="intro-features"><span>✳ &nbsp; Beachside location</span><span>✳ &nbsp; Thoughtful comfort</span></div></div></div></section>
+
+    <section class="room-section" id="rooms"><div class="container"><div class="section-top"><div><div class="eyebrow">YOUR HOME BY THE OCEAN</div><h2>Room to <em>unwind.</em></h2></div><p>Everything you need for an effortless stay, just moments from the waves.</p></div>
+      <div class="room-layout"><div class="room-visuals"><img class="room-main-image" src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1400&auto=format&fit=crop&q=85" alt="Relaxing resort-style accommodation" /><div class="room-thumbs"><img src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&auto=format&fit=crop&q=85" alt="Comfortable guest bedroom" /><img src="https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=600&auto=format&fit=crop&q=85" alt="Elegant room interior" /><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600&auto=format&fit=crop&q=85" alt="Bright hotel room" /></div><div class="image-note">Photo gallery · Illustrative images</div></div>
+      <article class="room-info"><div class="room-tag">✦ &nbsp; YOUR COASTAL RETREAT</div><div class="room-heading"><h3>Beachfront Room</h3><span class="rating">★ 4.8 <small>(127 reviews)</small></span></div><p class="room-location">⌖ &nbsp; Weligama, Sri Lanka · 2 min to the beach</p><p class="room-description">Wake up refreshed in a spacious, welcoming room with a wooden four-poster king bed, an additional single bed, and your own kitchenette. A peaceful base for exploring the southern coast.</p><div class="amenities"><div><span>♧</span> Up to 3 guests</div><div><span>⌂</span> King + single bed</div><div><span>◈</span> Kitchenette</div><div><span>⌁</span> Free Wi-Fi</div><div><span>☼</span> Near the beach</div><div><span>✓</span> Free cancellation</div></div><div class="booking-panel"><div class="price-row"><div><div class="price"><span>$</span><strong id="roomPrice">45</strong><small> / night</small></div><p>Taxes included</p></div><div class="availability">● &nbsp; Inquire for availability</div></div><button class="button button-primary book-wide" type="button" data-open="customerModal">Book via WhatsApp <span>↗</span></button><p class="booking-note">No online payment required · Confirm details directly</p></div></article></div>
+    </div></section>
+
+    <section class="experience-section"><div class="container experience-grid"><div><div class="eyebrow">THE WELIGAMA WAY</div><h2>Less rushing.<br /><em>More living.</em></h2><p>Catch a wave, wander the shoreline, or simply sit back and listen to the ocean. Here, the best days are the simple ones.</p><a href="#contact" class="underlined-link">Plan your escape <span>↗</span></a></div><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1100&auto=format&fit=crop&q=85" alt="Tropical beach with turquoise ocean" /></div></section>
+
+    <section class="contact-section" id="contact"><div class="container contact-inner"><div class="eyebrow">WE'D LOVE TO HOST YOU</div><h2>Your next getaway<br /><em>is waiting.</em></h2><p>Questions about your stay? Reach out and we'll be happy to help.</p><button class="button button-light" type="button" data-open="customerModal">Message us to book <span>↗</span></button><p class="contact-small">WhatsApp: +94 70 075 4715</p></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="brand footer-brand" href="#home"><span class="brand-icon">✺</span><span>Weligama <strong>Stays</strong><small>SRI LANKA</small></span></a><p>Made for slow days by the sea.</p><div><a href="#home">Back to top ↑</a><button type="button" class="footer-admin" data-open="adminModal">Owner login</button></div></div><div class="container copyright">© 2026 Weligama Stays. All rights reserved.</div></footer>
+
+  <div class="modal" id="customerModal" role="dialog" aria-modal="true" aria-labelledby="customerTitle" aria-hidden="true"><div class="modal-box"><button class="modal-close" type="button" data-close="customerModal" aria-label="Close dialog">×</button><div class="modal-icon">✺</div><h3 id="customerTitle">Let's plan your stay.</h3><p>Enter your WhatsApp number to continue to our booking chat.</p><form id="customerForm"><label for="custPhone">WhatsApp number</label><input id="custPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="e.g. 0771234567" required /><p class="form-error" id="phoneError" role="alert"></p><button class="button button-primary book-wide" type="submit">Continue to WhatsApp ↗</button></form><p class="modal-footnote">We'll open WhatsApp so you can confirm your dates directly.</p></div></div>
+  <div class="modal" id="adminModal" role="dialog" aria-modal="true" aria-labelledby="adminTitle" aria-hidden="true"><div class="modal-box"><button class="modal-close" type="button" data-close="adminModal" aria-label="Close dialog">×</button><div class="modal-icon">⌘</div><h3 id="adminTitle">Owner sign in</h3><p>Access the demo dashboard for your property.</p><form id="adminForm"><label for="adminEmail">Email address</label><input id="adminEmail" type="email" placeholder="admin@weligama.lk" required /><label for="adminPass">Password</label><input id="adminPass" type="password" placeholder="Enter password" required /><p class="form-error" id="adminError" role="alert"></p><button class="button button-primary book-wide" type="submit">Sign in →</button></form><p class="modal-footnote">Demo only: admin@weligama.lk / 12345</p></div></div>
+
+  <section class="dashboard hidden" id="adminDash" aria-label="Demo owner dashboard"><div class="container"><div class="dashboard-heading"><div><div class="eyebrow">PROPERTY OVERVIEW</div><h2>Welcome back, Owner 👋</h2><p>Demo dashboard · Sample booking figures</p></div><button class="button button-outline" type="button" id="logoutBtn">Log out</button></div><div class="stats"><div class="stat"><span>Today's bookings</span><strong>2</strong><small>Sample data</small></div><div class="stat"><span>Today's income</span><strong>$90</strong><small>Sample data</small></div><div class="stat"><span>Room status</span><strong>Available</strong><small>Beachfront Room</small></div></div><div class="price-editor"><div><h3>Room pricing</h3><p>Change the displayed nightly rate in this browser session.</p></div><form id="priceForm"><label for="newPrice">Price per night (USD)</label><div class="price-controls"><input id="newPrice" type="number" min="1" step="0.01" value="45" required /><button class="button button-primary" type="submit">Update price</button></div><p id="priceMessage" class="success-message" role="status"></p></form></div></div></section>
+</body>
+</html>
